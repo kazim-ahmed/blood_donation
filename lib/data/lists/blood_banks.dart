@@ -1,0 +1,88 @@
+import '../medical_center.dart';
+
+const bloodBanks = [
+  MedicalCenter(
+    name: "Pakistan Institute of Medical Sciences (PIMS) Blood Bank",
+    location: "Islamabad",
+    longitude: "73.059082",
+    latitude: "33.695826",
+    phoneNumbers: ["+92 51 9261170"],
+  ),
+  MedicalCenter(
+    name: "Shaukat Khanum Memorial Cancer Hospital and Research Centre",
+    location: "Lahore",
+    longitude: "74.301002",
+    latitude: "31.486775",
+    phoneNumbers: ["+92 42 35905000"],
+  ),
+  MedicalCenter(
+    name: "Jinnah Postgraduate Medical Centre (JPMC) Blood Bank",
+    location: "Karachi",
+    longitude: "67.033390",
+    latitude: "24.869274",
+    phoneNumbers: ["+92 21 99201300"],
+  ),
+  MedicalCenter(
+    name: "Fatimid Foundation Blood Bank",
+    location: "Karachi",
+    longitude: "67.082521",
+    latitude: "24.878124",
+    phoneNumbers: ["+92 21 111 112 345"],
+  ),
+  MedicalCenter(
+    name: "Aga Khan University Hospital Blood Bank",
+    location: "Karachi",
+    longitude: "67.130185",
+    latitude: "24.880186",
+    phoneNumbers: ["+92 21 34930051"],
+  ),
+  MedicalCenter(
+    name: "National Institute of Blood Diseases (NIBD)",
+    location: "Karachi",
+    longitude: "67.098490",
+    latitude: "24.920717",
+    phoneNumbers: ["+92 21 99204185"],
+  ),
+  MedicalCenter(
+    name: "Pakistan Red Crescent Society (PRCS) Blood Bank - Islamabad",
+    location: "Islamabad",
+    longitude: "73.070267",
+    latitude: "33.692784",
+    phoneNumbers: ["+92 51 9250404"],
+  ),
+  MedicalCenter(
+    name: "Pakistan Red Crescent Society (PRCS) Blood Bank - Lahore",
+    location: "Lahore",
+    longitude: "74.349178",
+    latitude: "31.529767",
+    phoneNumbers: ["+92 42 37597176"],
+  ),
+  MedicalCenter(
+    name: "Pakistan Red Crescent Society (PRCS) Blood Bank - Karachi",
+    location: "Karachi",
+    longitude: "67.082522",
+    latitude: "24.878124",
+    phoneNumbers: ["+92 21 111 PRCS PAK (111 7727 725)"],
+  ),
+  MedicalCenter(
+    name: "Armed Forces Institute of Transfusion (AFIT)",
+    location: "Rawalpindi",
+    longitude: "73.068157",
+    latitude: "33.641184",
+    phoneNumbers: ["+92 51 9271056"],
+  ),
+  MedicalCenter(
+    name: "Combined Military Hospital (CMH) Blood Bank - Lahore",
+    location: "Lahore",
+    longitude: "74.330247",
+    latitude: "31.542198",
+    phoneNumbers: ["+92 42 36605550"],
+  ),
+  MedicalCenter(
+    name: "Punjab Institute of Cardiology (PIC) Blood Bank",
+    location: "Lahore",
+    longitude: "74.314967",
+    latitude: "31.550686",
+    phoneNumbers: ["+92 42 99203051"],
+  ),
+];
